@@ -40,7 +40,7 @@ let withdrawInput = document.getElementById('withdraw-amount');
 let depositBtn = document.getElementById('deposit-btn');
 let withdrawBtn = document.getElementById('withdraw-btn');
 
-let withdrawAmount = parseFloat(withdrawInput.value);
+
 
 // Handle Events
 
