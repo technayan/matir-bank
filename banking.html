@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center h-screen">
+    <div class="container w-9/12 mx-auto">
+        <img src="./img/logo.png" class="text-center mx-auto" alt="Matir Bank">
+
+        <div class="grid grid-cols-3 gap-5 mt-8">
+            <div class="bg-blue-100 p-8 rounded-lg">
+                <h3 class="text-3xl  mb-2">Deposite</h3>
+                <h2 class="text-5xl font-medium">$<span id="deposite">0.0</span></h2>
+            </div>
+            <div class="bg-red-100 p-8 rounded-lg">
+                <h3 class="text-3xl  mb-2">Withdraw</h3>
+                <h2 class="text-5xl font-medium">$<span id="deposite">0.0</span></h2>
+            </div>
+            <div class="bg-green-100 p-8 rounded-lg">
+                <h3 class="text-3xl  mb-2">Balance</h3>
+                <h2 class="text-5xl font-medium">$<span id="deposite">0.0</span></h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-5 mt-5">
+            <div class="bg-blue-200 p-8 rounded-lg">
+                <h2 class="text-3xl font-semibold text-slate-800">Diposite Money</h2>
+                <input type="text" class="mt-5 p-3 text-2xl rounded-md w-full">
+                <button id="doposit-btn" class="text-2xl py-3 px-5 bg-blue-400 rounded-md mt-5 text-white font-bold hover:bg-blue-500 transition-all transition-duration-500 ease-in-out">Deposite</button>
+            </div>
+            <div class="bg-red-200 p-8 rounded-lg">
+                <h2 class="text-3xl font-semibold text-slate-800">Withdraw Money</h2>
+                <input type="text" class="mt-5 p-3 text-2xl rounded-md w-full">
+                <button id="doposit-btn" class="text-2xl py-3 px-5 bg-red-400 rounded-md mt-5 text-white font-bold hover:bg-red-500 transition-all transition-duration-500 ease-in-out">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
