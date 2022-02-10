@@ -41,7 +41,6 @@ let depositBtn = document.getElementById('deposit-btn');
 let withdrawBtn = document.getElementById('withdraw-btn');
 
 
-
 // Handle Events
 
 depositBtn.addEventListener('click', deposit);
