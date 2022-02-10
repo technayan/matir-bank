@@ -14,6 +14,10 @@ loginBtn.addEventListener('click', login);
 function login () {
     let email = emailInput.value;
     let pass = passInput.value;
-    console.log(email);
-    console.log(pass);
+    // Condition
+    if (email == 'admin@gmail.com' && pass == 'admin1310') {
+        window.location.href="banking.html";
+    } else {
+        window.alert('Invalid email and password!');
+    }
 }
