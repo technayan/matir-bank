@@ -7,7 +7,7 @@ let loginBtn = document.getElementById('login-btn');
 
 // Handle Events
 
-//loginBtn.addEventListener('click', login);
+loginBtn.addEventListener('click', login);
 
 // Functions
 
