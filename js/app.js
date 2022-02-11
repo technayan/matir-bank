@@ -26,4 +26,3 @@ function login () {
         window.alert('Invalid email and password!');
     };
 };
-

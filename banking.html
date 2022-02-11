@@ -8,34 +8,34 @@
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex items-center h-screen">
-    <div class="container w-9/12 mx-auto">
+<body>
+    <div class="container w-full lg:w-11/12 xl:w-10/12 px-5 mx-auto mt-8 lg:mt-12">
         <img src="./img/logo.png" class="text-center mx-auto" alt="Matir Bank">
 
-        <div class="grid grid-cols-3 gap-5 mt-8">
-            <div class="bg-blue-100 p-8 rounded-lg">
-                <h3 class="text-3xl  mb-2">Deposit</h3>
-                <h2 class="text-5xl font-medium">$<span id="total-deposit">0.00</span></h2>
+        <div class="grid lg:grid-cols-3 gap-5 mt-8">
+            <div class="bg-blue-100 p-5 lg:p-8 rounded-lg">
+                <h3 class="text-2xl mb-2">Deposit</h3>
+                <h2 class="text-3xl lg:text-4xl">$<span id="total-deposit">0.00</span></h2>
             </div>
-            <div class="bg-red-100 p-8 rounded-lg">
-                <h3 class="text-3xl  mb-2">Withdraw</h3>
-                <h2 class="text-5xl font-medium">$<span id="total-withdraw">0.00</span></h2>
+            <div class="bg-red-100 p-5 lg:p-8 rounded-lg">
+                <h3 class="text-2xl mb-2">Withdraw</h3>
+                <h2 class="text-3xl lg:text-4xl">$<span id="total-withdraw">0.00</span></h2>
             </div>
-            <div class="bg-green-100 p-8 rounded-lg">
-                <h3 class="text-3xl  mb-2">Balance</h3>
-                <h2 class="text-5xl font-medium">$<span id="total-balance">0.00</span></h2>
+            <div class="bg-green-100 p-5 lg:p-8 rounded-lg">
+                <h3 class="text-2xl mb-2">Balance</h3>
+                <h2 class="text-3xl lg:text-4xl">$<span id="total-balance">0.00</span></h2>
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-5 mt-5">
-            <div class="bg-blue-200 p-8 rounded-lg">
-                <h2 class="text-3xl font-semibold text-slate-800">Deposit Money</h2>
-                <input type="text" id="deposit-amount" class="mt-5 p-3 text-2xl rounded-md w-full">
-                <button id="deposit-btn"  class="text-2xl py-3 px-5 bg-blue-400 rounded-md mt-5 text-white font-bold hover:bg-blue-500 transition-all transition-duration-500 ease-in-out">Deposit</button>
+        <div class="grid md:grid-cols-2 gap-5 mt-5">
+            <div class="bg-blue-200 p-5 lg:p-8 rounded-lg">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-slate-800">Deposit Money</h2>
+                <input type="text" id="deposit-amount" class="mt-5 p-2 lg:p-3 text-xl lg:text-2xl rounded-md w-full">
+                <button id="deposit-btn"  class="text-xl lg:text-2xl py-3 px-5 bg-blue-400 rounded-md mt-5 text-white font-bold hover:bg-blue-500 transition-all transition-duration-500 ease-in-out">Deposit</button>
             </div>
-            <div class="bg-red-200 p-8 rounded-lg">
-                <h2 class="text-3xl font-semibold text-slate-800">Withdraw Money</h2>
-                <input type="text" id="withdraw-amount" class="mt-5 p-3 text-2xl rounded-md w-full">
-                <button id="withdraw-btn" class="text-2xl py-3 px-5 bg-red-400 rounded-md mt-5 text-white font-bold hover:bg-red-500 transition-all transition-duration-500 ease-in-out">Withdraw</button>
+            <div class="bg-red-200 p-5 lg:p-8 rounded-lg">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-slate-800">Withdraw Money</h2>
+                <input type="text" id="withdraw-amount" class="mt-5 p-2 lg:p-3 text-xl lg:text-2xl rounded-md w-full">
+                <button id="withdraw-btn" class="text-xl lg:text-2xl py-3 px-5 bg-red-400 rounded-md mt-5 text-white font-bold hover:bg-red-500 transition-all transition-duration-500 ease-in-out">Withdraw</button>
             </div>
         </div>
     </div>
